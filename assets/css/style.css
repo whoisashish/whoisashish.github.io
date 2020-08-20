@@ -2240,6 +2240,10 @@ section#awards ul li {
     width: 100%;
 }
 
+section#awards ul li a {
+    text-decoration: none;
+}
+
 section#awards ul li span {
     font-size: 22px;
     font-family: "Inconsolata", monospace;
@@ -2250,7 +2254,6 @@ section#awards ul li img{
     max-width: 100%;
     width: 150px;
     display: block;
-    opacity: 0.8;
     transition: all .2s;
 }
 
