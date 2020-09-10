@@ -2824,3 +2824,33 @@ button.mfp-close:hover {
 .col-md-12 .color:hover{
     color: #Ff5252;
 }
+
+.playMusic{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.playMusic svg{
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.playMusic .text{
+    font-size: 14px;
+    color: #e62429;
+    user-select: none;
+    font-weight: 400;
+    z-index: 10000000;
+    text-align: center;
+}
+
+@media only screen and (max-width: 900px){
+    .circle.circle2.lg.moove-mobile{
+        display: none;
+    }
+}
